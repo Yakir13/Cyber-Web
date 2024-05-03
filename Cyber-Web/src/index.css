@@ -4,7 +4,7 @@ body {
     width: 100%;
     height: 150vh;
     font-family: sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(assets/bg-2.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url(assets/bg-2.webp);
     background-position: center;
     background-size: cover;
 }
@@ -92,20 +92,46 @@ ul.dropdown li {
     display: block;
 }
 
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.home h2 {
+    color: #F44336;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.home p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+
+
+
+
 /* Cyber Attack */
 /* DDoS & DoS */
-.DDH1 {
-    color: #F44336; /* red 500 */
+/* .DDH1 {
+    color: #F44336; red 500;
     background-color: #333;
     margin: 30px;
     font-size: 45px;
     padding: 40px;
-    border-radius: 15px;
+    border-radius: 15px; 
     
 }
 
 .DDH2 {
-    color: #F44336;/* red 500 */
+    color: #F44336; 
     background-color: #333;
     margin-top: 70px;
     font-size: 35px;
@@ -124,5 +150,5 @@ ul.dropdown li {
 .DDI {
     border-radius: 50px;
     width: 80%;
-}
+} */
 

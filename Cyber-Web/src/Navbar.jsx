@@ -1,9 +1,9 @@
 function Navbar(){
     return(
         <nav className="nav">
-            <a href="/" className="site_title">CyberWeb</a>
+            <a href="/home" className="site_title">CyberWeb</a>
             <ul>
-                <li><a href="/home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/CIS">Cyber & Information Security</a></li>
                 <li><a href="/CD">Cyber Defenses</a></li>
                 <li>

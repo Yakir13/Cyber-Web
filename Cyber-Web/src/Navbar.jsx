@@ -9,7 +9,7 @@ function Navbar(){
                 <li>
                     <a href="/CA">Cyber Attack</a>
                     <ul className="dropdown">
-                        <li><a href="DDoS_DoS">DDoS and DoS</a></li>
+                        <li><a href="DoS_DDoS">DDoS and DoS</a></li>
                         <li><a href="">Malware</a></li>
                     </ul>
                 </li>

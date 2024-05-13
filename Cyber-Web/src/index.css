@@ -129,6 +129,24 @@ ul.dropdown li {
     color: #F44336;
 }
 
+/* DoS and DDoS */
+.DoS_DDoS {
+    margin: 50px;
+}
+
+.DoS_DDoS h1 {
+    color: #F44336; /* red 500 */
+    font-size: 3.5rem;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.DoS_DDoS p {
+    color: #fff;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
 
 
 

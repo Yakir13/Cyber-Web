@@ -6,7 +6,7 @@ body {
     width: 100%;
     height: 100vh;
     font-family: Quicksand, sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/bg-2.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/bg.webp);
     background-position: center;
     background-size: cover;
 }
@@ -130,21 +130,50 @@ ul.dropdown li {
 }
 
 /* DoS and DDoS */
-.DoS_DDoS {
-    margin: 50px;
-}
 
 .DoS_DDoS h1 {
     color: #F44336; /* red 500 */
-    font-size: 3.5rem;
-    text-align: left;
+    background-color: #555;
+    font-size: 4rem;
+    text-align: center;
     letter-spacing: 1.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.DoS_DDoS h2 {
+    color: #EF5350; /* red 400 */
+    font-size: 2.8rem;
+    text-align: left;
+    margin: 50px 25px 0;
+}
+
+.DoS_DDoS h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    margin: 10px 25px;
 }
 
 .DoS_DDoS p {
     color: #fff;
     text-align: left;
     font-size: 2.5rem;
+    margin: 10px 25px;
+}
+
+.DoS_DDoS .buffer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 35px 25px;
+
+}
+
+.DoS_DDoS .buffer img {
+    height: 350px;
+    width: 550px;
+    
 }
 
 

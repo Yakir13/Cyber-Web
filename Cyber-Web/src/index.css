@@ -130,7 +130,6 @@ ul.dropdown li {
 }
 
 /* DoS and DDoS */
-
 .DoS_DDoS h1 {
     color: #F44336; /* red 500 */
     background-color: #555;
@@ -143,38 +142,33 @@ ul.dropdown li {
 
 .DoS_DDoS h2 {
     color: #EF5350; /* red 400 */
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-align: left;
-    margin: 50px 25px 0;
+    margin: 20px 25px 0;
+    text-decoration: underline;
 }
 
 .DoS_DDoS h3 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
-    margin: 10px 25px;
+    margin: 0 25px 25px;
 }
 
 .DoS_DDoS p {
     color: #fff;
     text-align: left;
     font-size: 2.5rem;
-    margin: 10px 25px;
+    margin: 0 25px 70px;
 }
 
-.DoS_DDoS .buffer {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    margin: 35px 25px;
-
+.DoS_DDoS b {
+    color: #EF5350; /* red 400 */
 }
 
-.DoS_DDoS .buffer img {
-    height: 350px;
-    width: 550px;
-    
-}
+
+
+
 
 
 

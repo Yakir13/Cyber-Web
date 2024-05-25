@@ -1,12 +1,12 @@
 function DoS_DDoS() {
     return(
         <div className="DoS_DDoS">
-            <div className="Dnav">
+            {/* <div className="Dnav">
                 <h4>DoS and DDoS</h4>
                 <a href="#">What is DoS and DDoS</a>
                 <a href="#">Examples</a>
                 <a href="#">How To defense</a>
-            </div>
+            </div> */}
             <h1>What is DoS and DDoS</h1>
             <h2>Denial of Service (DoS)</h2>
             <p>A Denial of Service attack is a cyber attack aimed at making a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet. This is typically accomplished by overwhelming the target with a flood of requests in an effort to overload systems and prevent some or all legitimate requests from being fulfilled.</p>

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Quicksand, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(assets/bg.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 1rem;
+    text-align: center;
+} 
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav .site_title {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.nav .site_title:hover {
+    /* background-color: #777; */
+    color: #F44336; /* red 500 */
+}
+
+.nav .site_title:active {
+    background-color: #555;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-right: 30px;
+}
+
+.nav a {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    padding: 10px;
+}
+
+.nav a:hover {
+    color: #F44336; /* red 500 */
+}
+
+/* .nav li:hover {
+    background-color: #555;
+
+} */
+
+/* .nav li:active {
+    background-color: #555;
+
+}  */
+
+/* dropdown */
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    background: #333;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    
+}
+
+ul.dropdown li {
+    display: block;
+}
+
+/* Home */
+.home {
+    display: block;
+    margin: 70px;
+    text-align: center;
+}
+
+.home h2 {
+    color: #F44336; /* red 500 */
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.home p {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.home button {
+    margin-top: 10px;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.home button:hover {
+    color: #E53935; /* red 500 */
+}
+
+/* DoS and DDoS */
+.DoS_DDoS h1 {
+    color: #F44336; /* red 500 */
+    background-color: #555;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.DoS_DDoS h2 {
+    color: #F44336; /* red 500 */
+    font-size: 40px;
+    text-align: left;
+    margin: 20px 25px 0;
+    text-decoration: underline;
+}
+
+.DoS_DDoS h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    margin: 10px 25px 35px;
+}
+
+.DoS_DDoS p {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    margin: 15px 25px 70px;
+}
+
+.DoS_DDoS b {
+    color: #F44336; /* red 500 */
+}
+
+.DoS_DDoS .Dnav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #444;
+}
+
+.DoS_DDoS .Dnav h4 {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.DoS_DDoS .Dnav a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.DoS_DDoS .Dnav a:hover {
+    color: #F44336; /* red 500 */
+}
+
+/* Malware */
+.malware h1 {
+    color: #F44336; /* red 500 */
+    background-color: #555;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.malware p {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    margin: 15px 25px 70px;
+}
+
+.malware b {
+    color: #F44336; /* red 500 */
+}
+
+
+
+
+
+/* Cyber Attack */
+/* DDoS & DoS */
+/* .DDH1 {
+    color: #F44336; red 500;
+    background-color: #333;
+    margin: 30px;
+    font-size: 45px;
+    padding: 40px;
+    border-radius: 15px; 
+    
+}
+
+.DDH2 {
+    color: #F44336; 
+    background-color: #333;
+    margin-top: 70px;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.DDP {
+    color: #222;
+    font-size: 35px;  
+    text-align: right;
+}
+
+.DDI {
+    border-radius: 50px;
+    width: 80%;
+} */
+

@@ -168,7 +168,7 @@ ul.dropdown li {
     color: #F44336; /* red 500 */
 }
 
-.DoS_DDoS .Dnav {
+/* .DoS_DDoS .Dnav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -191,8 +191,8 @@ ul.dropdown li {
 }
 
 .DoS_DDoS .Dnav a:hover {
-    color: #F44336; /* red 500 */
-}
+    color: #F44336; 
+} */
 
 /* Malware */
 .malware h1 {
@@ -203,6 +203,21 @@ ul.dropdown li {
     letter-spacing: 1.5px;
     margin: 0;
     padding: 10px;
+}
+
+.malware h2 {
+    color: #F44336; /* red 500 */
+    font-size: 40px;
+    text-align: left;
+    margin: 20px 25px 0;
+    text-decoration: underline;
+}
+
+.malware h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    margin: 10px 25px 35px;
 }
 
 .malware p {

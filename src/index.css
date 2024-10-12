@@ -131,6 +131,54 @@ ul.dropdown li {
     color: #E53935; /* red 500 */
 }
 
+/* CIS */
+.CIS h1 {
+    color: #F44336; /* red 500 */
+    background-color: #555;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.CIS h2 {
+    color: #F44336; /* red 500 */
+    font-size: 40px;
+    text-align: left;
+    margin: 20px 25px 0;
+    text-decoration: underline;
+}
+
+.CIS p {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    margin: 15px 25px 70px;
+}
+
+.CIS b {
+    color: #F44336; /* red 500 */
+}
+
+/* CA */
+.CA h1 {
+    color: #F44336; /* red 500 */
+    background-color: #555;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.CA p {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    margin: 15px 25px 70px;
+}
+
 /* DoS and DDoS */
 .DoS_DDoS h1 {
     color: #F44336; /* red 500 */
@@ -167,32 +215,6 @@ ul.dropdown li {
 .DoS_DDoS b {
     color: #F44336; /* red 500 */
 }
-
-/* .DoS_DDoS .Dnav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #444;
-}
-
-.DoS_DDoS .Dnav h4 {
-    color: #fff;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-.DoS_DDoS .Dnav a {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-.DoS_DDoS .Dnav a:hover {
-    color: #F44336; 
-} */
 
 /* Malware */
 .malware h1 {
@@ -233,39 +255,4 @@ ul.dropdown li {
 
 
 
-
-
-/* Cyber Attack */
-/* DDoS & DoS */
-/* .DDH1 {
-    color: #F44336; red 500;
-    background-color: #333;
-    margin: 30px;
-    font-size: 45px;
-    padding: 40px;
-    border-radius: 15px; 
-    
-}
-
-.DDH2 {
-    color: #F44336; 
-    background-color: #333;
-    margin-top: 70px;
-    font-size: 35px;
-    padding: 20px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-.DDP {
-    color: #222;
-    font-size: 35px;  
-    text-align: right;
-}
-
-.DDI {
-    border-radius: 50px;
-    width: 80%;
-} */
 
